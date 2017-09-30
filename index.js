@@ -10,7 +10,6 @@ function increaseRankBy (n) {
   const li = document.querySelector(ranked-list)
 
   for (let n = 0, n < li.length; i++) {
-    parseInt(n);
     li[n] = li[n-1];
   }
 }
